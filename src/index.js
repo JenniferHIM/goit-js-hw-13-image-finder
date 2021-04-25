@@ -2,6 +2,7 @@ import './styles.css';
 import PixabayService from './js/apiService';
 import hitsTpl from './templates/templates.hbs'
 import { onOpenModal } from './js/modal';
+import errorNotice from './js/notice.js';
 
 
 const refs = getRefs();
